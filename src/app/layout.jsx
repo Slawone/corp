@@ -1,7 +1,7 @@
 import { Oswald } from 'next/font/local';
 import { ThemeProvider } from "next-themes";
 import { cn } from '@/utils';
-import { Header } from "@/widgets";
+import { Footer, Header } from "@/widgets";
 import './globals.css';
 
 const oswald = Oswald({
@@ -48,6 +48,7 @@ export default function RootLayout({ children }) {
         > 
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
