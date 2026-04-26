@@ -6,4 +6,3 @@
 - tailwindcss - 4
 
 После клонирования добавить папку .vscode в .gitignore
-

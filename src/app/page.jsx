@@ -1,5 +1,19 @@
 export default function HomePage() {
   return (
-    <div className="text-red-400 w-full h-screen flex justify-center items-center">hello</div>
+    <main>
+      {/* news */}
+      {/* hero */}
+      {/* info */}
+      {/* monitoring */}
+      {/* texts grid */}
+      {/* union */}
+      {/* info */}
+      {/* ecosystem */}
+      {/* texts grid */}
+      {/* support */}
+      {/* info */}
+      {/* globe */}
+      {/* small texts grid */}
+    </main>
   );
 }

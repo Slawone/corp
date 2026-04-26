@@ -3,11 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #000000;
+  --accent: #00B6CC;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
   --font-sans: var(--font-oswald), 'sans-serif';
 }
 
@@ -25,7 +27,12 @@ body {
   font-weight: 300;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @apply text-black dark:text-[#ededed] uppercase;
 }
 
