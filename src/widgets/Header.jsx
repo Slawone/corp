@@ -1,5 +1,6 @@
-import { Logo } from "@/components";
 import Link from "next/link";
+import { DesktopMenu, Logo } from "@/components";
+import { menuItems } from "@/data";
 
 export const Header = () => {
   return (
@@ -9,6 +10,7 @@ export const Header = () => {
           <Logo className={'w-20 md:w-30 h-auto fill-foreground'} />
         </Link>
         {/* menu */}
+        <DesktopMenu items={menuItems} className={'hidden'} />
         {/* contacts button */}
         {/* theme button */}
       </div>

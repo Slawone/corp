@@ -59,3 +59,7 @@ p {
 .padding-y {
   @apply py-5 md:py-10;
 }
+
+.link {
+  @apply text-zinc-600 dark:text-zinc-400 hover:text-black dark:hover:text-white transition;
+}
