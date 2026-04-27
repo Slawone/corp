@@ -1,10 +1,10 @@
 'use client';
 
-import { scrolls } from "@/utils";
+import { scrolls } from '@/utils';
 
 export const Footer = () => {
   return (
-    <button 
+    <button
       className="button button-secondary"
       onClick={() => scrolls.scrollToTop()}
     >

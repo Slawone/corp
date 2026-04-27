@@ -1,2 +1,2 @@
 /* menu items */
-export {menuItems} from './menuItems';
+export { menuItems } from './menuItems';

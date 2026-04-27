@@ -1,7 +1,7 @@
 import { Oswald } from 'next/font/local';
-import { ThemeProvider } from "next-themes";
+import { ThemeProvider } from 'next-themes';
 import { cn } from '@/utils';
-import { Footer, Header } from "@/widgets";
+import { Footer, Header } from '@/widgets';
 import './globals.css';
 
 const oswald = Oswald({
@@ -38,17 +38,21 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru" className={cn(oswald.variable, "h-full antialiased")} suppressHydrationWarning>
+    <html
+      lang="ru"
+      className={cn(oswald.variable, 'h-full antialiased')}
+      suppressHydrationWarning
+    >
       <body className="min-h-full flex flex-col">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        > 
+        >
           <Header />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </ThemeProvider>
       </body>
     </html>
