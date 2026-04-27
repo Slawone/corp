@@ -1,10 +1,10 @@
-import { News } from '@/sections/homePage';
+import { HeroSection, News } from '@/sections/homePage';
 
 export default function HomePage() {
   return (
     <main>
       <News />
-      {/* news */}
+      <HeroSection />
       {/* hero */}
       {/* info */}
       {/* monitoring */}

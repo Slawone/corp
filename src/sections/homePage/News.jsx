@@ -26,7 +26,7 @@ export const News = () => {
         <a
           href="https://max.ru/join/ A9BI2uNQbcqGW2DuMSXPXK1BlxoEZkYoez2rA5vA84U"
           target="_blank"
-          className="button button-primary flex justify-center items-center gap-2"
+          className="button button-primary"
         >
           <Image src={iconSrc} width={16} height={16} alt="MAX" />
           <span>Max</span>
