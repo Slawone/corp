@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
         >
           <Header />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

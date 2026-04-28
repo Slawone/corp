@@ -69,6 +69,10 @@ h3 {
   @apply text-base md:text-xl lg:text-2xl;
 }
 
+h4 {
+  @apply text-base md:text-lg;
+}
+
 p {
   @apply text-sm md:text-base lg:text-lg leading-8;
 }
